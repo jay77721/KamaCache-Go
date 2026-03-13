@@ -1,18 +1,6 @@
 
 # KamaCache
 
-**本项目目前只在[知识星球](https://programmercarl.com/other/kstar.html)里维护，并答疑**
-
-分布式缓存（Go）这个项目在 23年就在星球里发布了。
-
-如今，对这个项目做了第二版优化。
-
-对代码讲解，面试问题，和简历写法，都做了补充和完善。
-
-本项目今天在[知识星球](https://programmercarl.com/other/kstar.html)里正式发布：
-
-![image](https://file1.kamacoder.com/i/web/20250414102441.png)
-
 ## 什么是缓存
 
 缓存是将高频访问的数据暂存到内存中，是加速数据访问的存储，降低延迟，提高吞吐率的利器。
@@ -58,39 +46,8 @@
 4、适用于分布式系统：
 * 现代应用通常采用 多实例部署（如 Kubernetes 微服务架构），本地缓存难以满足数据共享需求，而 分布式缓存天然适用于多实例环境。
 
-
-## 项目专栏精讲
-
-该项目的专栏是[知识星球](https://programmercarl.com/other/kstar.html)录友专享的。
-
-项目专栏依然是将 「简历写法」给大家列出来了，大家学完就可以参考这个来写简历：
-
-![image](https://file1.kamacoder.com/i/web/20250414101516.png)
-
-做完该项目，面试中大概率会有哪些面试问题，以及如何回答，也列出好了：
-
-![image](https://file1.kamacoder.com/i/web/20250414101617.png)
-
-专栏中的项目面试题都掌握的话，这个项目在面试中基本没问题。
-
-项目架构：
-
-![image](https://file1.kamacoder.com/i/web/20250414101706.png)
-
-本项目主要模块：缓存组、缓存淘汰与实现、缓存并发、分布式算法之一致性哈希、缓存对外服务化 都做了详细的讲解：
-
-![image](https://file1.kamacoder.com/i/web/20250414101827.png)
-
-![image](https://file1.kamacoder.com/i/web/20250414101856.png)
-
-![image](https://file1.kamacoder.com/i/web/20250414101913.png)
-
-![image](https://file1.kamacoder.com/i/web/20250414101930.png)
-
-
-## 获取本项目专栏
-
-**本文档仅为星球内部专享，大家可以加入[知识星球](https://programmercarl.com/other/kstar.html)里获取，在星球置顶一**
+##源项目地址
+https://github.com/youngyangyang04/KamaCache-Go?tab=readme-ov-file
 
 
 ## 许可证
